@@ -1,0 +1,133 @@
+body {
+    background: #889788;
+}
+
+.container {
+    margin: auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding-bottom: 22px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px 2px #111811;
+}
+
+.answer > div.block{
+    display: inline-block;
+    margin: 20px;
+    background: #ff9900;
+    box-sizing: content-box;
+    padding:20px;
+    position: relative;
+}
+
+.image{
+    width:200px;
+}
+
+.answer div.cover{
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:#ff9900;
+}
+
+.letter-box {
+    background: #a8ae65f7;
+    width: 50px;
+    height: 50px;
+    color: #121120;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.answer {
+    display: flex;
+    gap: 14px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    overflow: hidden;
+}
+
+.img-question {
+    width: 500px;
+    height: 400px;
+}
+
+.answer {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+p.suggest {
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 39px;
+}
+
+
+.text-question {
+    text-align: center;
+    margin-bottom: 13px;
+    font-size: 19px;
+}
+
+input[type="text"] {
+    width: 381px;
+    height: 43px;
+    border: 2px solid #9e9ec2;
+    border-radius: 6px;
+    font-size: 17px;
+    padding-left: 11px;
+    padding-right: 10px;
+}   
+
+button {
+    border: none;
+    padding: 16px;
+    border-radius: 7px;
+    background: blue;
+    width: 69px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.notification {
+    margin-top: -15px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    overflow: hidden;
+}
+
+.notification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 61px;
+}
+
+.img-suggest {
+    width: 30px;
+    height: 30px;
+}
