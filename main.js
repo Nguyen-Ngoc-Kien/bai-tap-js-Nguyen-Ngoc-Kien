@@ -4,8 +4,9 @@ fetch('questions.json')
     console.log("data >>>", data);
     let questionIndex = 0; 
     let score = 0; 
-    let suggestions = 5;
-
+    let suggestions = 6;
+    document.getElementsByClassName('suggest')[0].innerText = suggestions;
+    console.log(document.getElementsByClassName('p.suggest'))
     function displayQuestion(questionData) {
       document.querySelector('.text-question').innerText = questionData.content; 
       document.querySelector('.img-question img').src = questionData.image; 
