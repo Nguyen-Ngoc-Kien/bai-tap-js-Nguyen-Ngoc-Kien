@@ -22,10 +22,18 @@ fetch('questions.json')
         </div>
         <input type="text" class="answer" placeholder="________">
       `;
-
       questionsContainer.appendChild(questionDiv); 
     });
 
+    document.querySelectorAll('input.answer').forEach(input => {
+      input.addEventListener('input', (event) => {
+        const textLength = event.target.value.length;
+        
+        // Đặt width của input dựa trên độ dài văn bản, cộng thêm một giá trị để tránh quá nhỏ
+        event.target.style.width = `${Math.max(50, textLength * 10)}px`; 
+      });
+    });
+    console.log("log")
     document.querySelector('.submit').addEventListener('click', () => {
       const questionElements = document.querySelectorAll('.text-question');
 
@@ -49,6 +57,5 @@ fetch('questions.json')
         questionElement.querySelector('.answer').value = ''; 
       });
     });
-
   })
   .catch(error => console.error('Error loading questions:', error)); 

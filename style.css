@@ -5,9 +5,12 @@
 
 input.answer {
     border: none;
-    width: 50px;
     font-size: 17px;
     font-weight: bold;
+    width: 50px;
+    min-width: 50px; /* Kích thước tối thiểu */
+    max-width: 100%; /* Giới hạn kích thước tối đa */
+    transition: width 0.2s ease; /* Hiệu ứng thay đổi kích thước */
 }
 
 input:focus {
