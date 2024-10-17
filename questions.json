@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "question": "Thủ đô của Việt Nam là ",
+        "answer": "Hà Nội"
+    },
+    {
+        "id": 2,
+        "question": "Thủ đô của Nhật Bản là ",
+        "answer": "Tokyo"
+    },
+    {
+        "id": 3,
+        "question": "Thủ đô của Hàn Quốc là ",
+        "answer": "Seoul"
+    },
+    {
+        "id": 4,
+        "question": "Thủ đô của Trung Quốc là ",
+        "answer": "Bắc Kinh"
+    },
+    {
+        "id": 5,
+        "question": "Thủ đô của Indonesia là ",
+        "answer": "Jakarta"
+    },
+    {
+        "id": 6,
+        "question": "Thủ đô của Philippines là ",
+        "answer": "Manila"
+    },
+    {
+        "id": 7,
+        "question": "Thủ đô của Singapore là ",
+        "answer": "Singapore"
+    },
+    {
+        "id": 8,
+        "question": "Thủ đô của Malaysia là ",
+        "answer": "Kuala Lumpur"
+    },
+    {
+        "id": 9,
+        "question": "Thủ đô của Campuchia là ",
+        "answer": "Phnom Penh"
+    },
+    {
+        "id": 10,
+        "question": "Thủ đô của Lào là ",
+        "answer": "Vientiane"
+    },
+    {
+        "id": 11,
+        "question": "Thủ đô của Myanmar là ",
+        "answer": "Naypyidaw"
+    },
+    {
+        "id": 12,
+        "question": "Thủ đô của Thái Lan là ",
+        "answer": "Bangkok"
+    },
+    {
+        "id": 13,
+        "question": "Thủ đô của Ấn Độ là ",
+        "answer": "New Delhi"
+    },
+    {
+        "id": 14,
+        "question": "Thủ đô của Nepal là ",
+        "answer": "Kathmandu"
+    },
+    {
+        "id": 15,
+        "question": "Thủ đô của Bhutan là ",
+        "answer": "Thimphu"
+    },
+    {
+        "id": 16,
+        "question": "Thủ đô của Bangladesh là ",
+        "answer": "Dhaka"
+    },
+    {
+        "id": 17,
+        "question": "Thủ đô của Sri Lanka là ",
+        "answer": "Colombo"
+    },
+    {
+        "id": 18,
+        "question": "Thủ đô của Pakistan là ",
+        "answer": "Islamabad"
+    },
+    {
+        "id": 19,
+        "question": "Thủ đô của Afghanistan là ",
+        "answer": "Kabul"
+    },
+    {
+        "id": 20,
+        "question": "Thủ đô của Iran là ",
+        "answer": "Tehran"
+    },
+    {
+        "id": 21,
+        "question": "Thủ đô của Iraq là ",
+        "answer": "Baghdad"
+    },
+    {
+        "id": 22,
+        "question": "Thủ đô của Ả Rập Xê Út là ",
+        "answer": "Riyadh"
+    },
+    {
+        "id": 23,
+        "question": "Thủ đô của Qatar là ",
+        "answer": "Doha"
+    },
+    {
+        "id": 24,
+        "question": "Thủ đô của Kuwait là ",
+        "answer": "Kuwait City"
+    }
+]

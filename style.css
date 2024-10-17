@@ -1,0 +1,63 @@
+.text-question {
+    display: inline-flex;
+    gap: 11px;
+}
+
+input.answer {
+    border: none;
+    width: 50px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+input:focus {
+    outline: none;
+ }
+
+ .icon {
+    width: 30px;
+    height: 30px;
+    background: #3a3ae5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: white;
+    border-radius: 999px;
+}
+
+.layer-button {
+    margin: auto;
+    width: 252px;
+}
+
+button.submit {
+    background: #29ac37;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+button.reset {
+    background: #a9a5d9;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+div#questions-container {
+    margin: auto;
+    width: 1400px;
+    margin-bottom: 23px;
+    margin-top: 28px;
+}
+
+p.question {
+    font-size: 17px;
+}
