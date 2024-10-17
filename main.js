@@ -4,7 +4,7 @@ fetch('questions.json')
     console.log("data >>>", data);
     let questionIndex = 0; 
     let score = 0; 
-    let suggestions = 2;
+    let suggestions = 5;
 
     function displayQuestion(questionData) {
       document.querySelector('.text-question').innerText = questionData.content; 
