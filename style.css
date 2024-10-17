@@ -1,0 +1,58 @@
+body {
+    background: #cad3ca;
+}
+
+.wrapper {
+    width: 70%;
+    margin: 50px auto;
+    background: white;
+    padding: 26px;
+    background: white;
+    box-shadow: 1px 1px 1px 1px grey;
+    padding-left: 85px;
+}
+
+.wrapper .score{
+    text-align: center;
+    font-size: 30px;
+}
+
+.wrapper .question{
+    font-size: 26px;
+}
+
+.wrapper .answers .answer{
+    float:left;
+    width:45%;
+    text-align: center;
+    border:1px dashed #cdcdcd;
+    box-sizing: border-box;
+    margin:10px;
+    padding:20px;
+    cursor: pointer;
+    font-size: 21px;
+}
+
+.wrapper .answers .answer:hover{
+    background: coral;
+    color: white;
+}
+
+.answers {
+    height: 200px;
+}
+
+p.question {
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.answers {
+    font-size: 23px;
+    text-align: center;
+}
+
+.wrapper .question {
+    font-size: 26px;
+    text-align: center;
+}
